@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width">
+	<title>QR Maker</title>
+	<link href="https://bouncecss.bookie0.repl.co/bounce.css" rel="stylesheet" type="text/css" />
+	<link href="style.css" rel="stylesheet" type="text/css"/>
+</head>
+
+<body>
+	<div class="container">
+	<h1 class="header">QR Maker</h1>
+	<div class="canvas">
+	<canvas id="qr" height="100px"></canvas>
+	</div>
+	<br>
+	<div class="input">
+	<input type="text" id="link" placeholder='google.com'>
+	<button onclick="qrc();">Create</button>
+	</div>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/qrious/4.0.2/qrious.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/qrcodejs/1.0.0/qrcode.min.js"></script>
+	<script src="script.js"></script>
+	</div>
+
+	
+</body>
+
+</html>
